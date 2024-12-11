@@ -30,7 +30,7 @@ export default function Cadastrar() {
               confirmPassword: inputSenha2,
               biografia: inputBiografia,
             })
-           navigate('/Login')
+           navigate('/')
           }
             catch (error) {
               if (!error?.response) {
