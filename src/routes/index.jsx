@@ -13,49 +13,6 @@ function Login() {
   const [password, setInputPassword] = useState('')
   const [error, setError] = useState('')
 
-  // const handleLogin = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     console.log(inputEmail, inputPassword)
-  //   if (inputEmail === '' || inputPassword === '') {
-  //     setError("Preencha todos os campos")
-  //   }
-  //   else{
-      
-  //       const response = await api.post('/auth/user',
-  //         JSON.stringify({inputEmail, inputPassword}),
-  //         // {
-  //         //   headers: {
-  //         //     'Content-Type': 'application/json'
-  //         //   }
-  //         // }
-  //       )
-  //       console.log(response)
-  //        if (response !== null) {
-  //         if(response.email === inputEmail && response.password === inputPassword){
-  //           setUser(response)
-  //           navigate(`/Home/${user.id}`)
-  //         }else{
-  //           setError("Email ou senha incorretos")
-  //         }
-  //        }
-  //       }
-  //     }
-
-  // catch (error) {
-  //   if (!error?.response) {
-  //     if (user !== null) {
-  //       navigate(`/Home/${user.id}`)
-  //     }else{
-  //       setError("Erro ao acessar ao servidor")
-  //     }
-  //   }
-  //   else{
-  //     setError("Erro desconhecido, tente novamente")
-  //   }
-  // }
-  // }
-
     const handleLogin = async (e) => {
       e.preventDefault();
       try {
