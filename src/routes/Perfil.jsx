@@ -108,7 +108,7 @@ export default function Perfil(){
                     <div className="profile-info">
                         <p>{usersInfo.seguidores} seguidores</p>
                         <p>{usersInfo.seguindo} seguindo</p>
-                        <div className="biografia">
+                        <div className="biografia" style={{height: "60%"}}>
                         <p>{usersInfo.biografia}</p>
                         </div>
                         <p>{usersInfo.pontos} pontos acumulados</p>
