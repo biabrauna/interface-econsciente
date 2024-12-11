@@ -240,6 +240,7 @@
     margin: 50px 0 50px 20px;
     padding: 20px;
     font-family: Arial, sans-serif;
+    z-index: 999;
   }
   
   .colors table {
