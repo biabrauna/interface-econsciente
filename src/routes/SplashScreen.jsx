@@ -14,7 +14,7 @@ export default function SplashScreen() {
     return (
         <div style={{ backgroundImage: `url('https://res.cloudinary.com/dnulz0tix/image/upload/v1733910597/mc8vbxz0qmdqgr1e2bnn.png')`, display: "flex", justifyContent: "center", alignItems: "center", height: "100%", width: "100%" }}>
             <div className="App">
-            <img src="https://res.cloudinary.com/dnulz0tix/image/upload/v1733910597/z1yhunaucajmbcydnexn.png" className="App-logo" alt="logo" />
+            <img src="https://res.cloudinary.com/dnulz0tix/image/upload/v1733912145/jobpgqzkyrhmrsxvqn9y.png" className="App-logo" alt="logo" />
             </div>
         </div>
     );
