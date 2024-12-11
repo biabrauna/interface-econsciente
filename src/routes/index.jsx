@@ -13,7 +13,8 @@ function Login() {
   const [password, setInputPassword] = useState('')
   const [error, setError] = useState('')
 
-    const handleLogin = async () => {
+    const handleLogin = async (e) => {
+      e.preventDefault()
       try {
         console.log(email, password)
       if (email === '' || password === '') {
@@ -49,7 +50,7 @@ function Login() {
             <div className='border-box'>
             <input className="input" type="password" placeholder="Digite sua senha" onChange={(e) => setInputPassword(e.target.value)} required/>
             </div>
-            <button className='btn' type="submit" onClick={() =>handleLogin()}>Entrar</button>
+            <button className='btn' type="submit" onClick={(e) =>handleLogin(e)}>Entrar</button>
             <Link className="link" to="/Cadastrar"><p>Ainda não tem uma conta?  
             <span>  Cadastre-se</span></p></Link>
           </form>
